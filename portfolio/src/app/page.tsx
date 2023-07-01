@@ -17,10 +17,10 @@ export default function Home() {
   
   return (
 
-    <main className="bg-gray-100 px-10">
+    <main className="bg-gray-100">
       
         
-      <nav className="py-10 mb-12 flex sticky top-0 bg-gray-100 w-full z-10">
+      <nav className="p-10 py-10 mb-12 flex sticky top-0 bg-gray-100 w-full z-10">
         
         <ul className="flex justify-center items-center space-x-4">
           <li>
@@ -64,12 +64,66 @@ export default function Home() {
         </div>
         
       </section>
+      
+      <section id="Education" className="pb-20 mx-auto bg-stone-700 flex justify-center gap-20 flex-wrap">
+        <div className="max-w-md p-10">
+          <div className="text-white p-5">
+            <h1 className="text-5xl font-semibold pb-5">Education</h1>
+            <h2 className="text-2xl font-semibold">University of Virgina</h2>
+            <h3 className=" ">Master of Computer Science, Dec 2024</h3>
+            <h3 className=" ">BA Computer Science, Business Minor, May 2024</h3>
+            <p>GPA - 3.6 | Dean's List</p>
+          </div>
+          <div className="text-white p-5">
+            <h3>Coursework:</h3>
+            <p>Data Structures and Algorithms, Computer Architecture, Networks, 
+              Advanced Software Development, Machine Learning, Cyber Security, 
+              Theory of Computation, Discrete Math, Probability, Linear Algebra, 
+              Statistics, Financial Accounting</p>
+            
+          </div>
+          <div className="text-white p-5">
+            <h3>Activities:</h3>
+            <p>Data Science and Analytics Club: 2020-2023 </p>
+            <p>Computer and Network Security Club: 2022-2023</p>
+            
+
+          </div>
+
+        </div>
+        <div className="max-w-md p-10">
+          <div className="text-white p-5">
+            <h1 className="text-5xl font-semibold pb-5">Skills</h1>
+          </div>
+          <div className="text-white p-5">
+            <h3>Languages:</h3>
+            <p> Python, C++, C, Java, JavaScript, PHP, R, SQL, Typescript</p>
+          </div>
+          <div className="text-white p-5">
+            <h3>Frameworks/Libraries:</h3>
+            <p>ReactJS, Bootstrap, Tailwind, Node.js, Next.js, Django, Sklearn, NumPy, Pandas</p>
+          </div>
+          <div className="text-white p-5">
+            <h3>Web & Database:</h3>
+            <p>MySQL, PostgreSQL, Firebase, HTML, CSS</p>
+          </div>
+          <div className="text-white p-5">
+            <h3>Tech:</h3>
+            <p>Git, Unix, Heroku, LaTeX, Visual Studio, VSCode, Eclipse, Jupyter Notebook, Docker, Kubernetes
+
+</p>
+          </div>
+
+        </div>
+        
+
+      </section>
 
 
 
-      <section id="Experience" className="">
+      <section id="Experience" className="pt-20">
         <div className="w-fit mx-auto ">
-          <h3 className="text-4xl flex justify-center mb-5 sm:pb-10">Work Experience</h3>
+          <h3 className="text-4xl text-stone-700 font-bold flex justify-center mb-5 sm:pb-10">Work Experience</h3>
         
           <div className="flex justify-between flex-wrap gap-8 py-10 m-auto ">
 
@@ -120,9 +174,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="Projects" className="mt-60">
+      <section id="Projects" className="mt-60 ">
         <div className="w-fit mx-auto">
-          <h3 className="text-4xl flex justify-center mb-5 sm:pb-10">Projects</h3>
+          <h3 className="text-4xl text-stone-700 font-bold flex justify-center mb-5 sm:pb-10">Projects</h3>
         
 
           <div className="flex justify-between flex-wrap gap-8 py-10 m-auto">
@@ -141,54 +195,46 @@ export default function Home() {
             </div>
             
 
-            <div className="h-min max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105">
+            <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105">
               <Image className="w-full max-h-80 rounded-xl" src={tcp} alt="linkedin" />
               <div className=" p-6 ">
                 <h3 className="text-xl font-semibold mb-2">TCP Packet Simulator</h3>
                 <p className="text-gray-400 pb-1">Charlottesville, VA | April 2023 - April 2023</p>
                 <p className="text-sm pb-5"> </p>
                 <ul className="list-disc">
-                  <li>Designing a codeless AI platform “MatDash” to enable machine learning model building for materials R&D</li>
-                  <li>Integratable with open-source and/or custom material properties datasets</li>
-                  <li>Designing a codeless AI platform “MatDash” to enable machine learning model building for materials R&D</li>
-                  <li>Integratable with open-source and/or custom material properties datasets</li>
-                  <li>Designing a codeless AI platform “MatDash” to enable machine learning model building for materials R&D</li>
-                  <li>Integratable with open-source and/or custom material properties datasets</li>
+                  <li>Implemented a RDT protocol using Go-Back-N in C to send packets over an unreliable data channel.</li>
+                  <li>Built to handle both packet loss and packet corruption in a simulated environment.</li>
+                  
                 </ul>
               </div>
             </div>
 
-            <div className="h-min max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105">
+            <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105">
               <Image className="w-full max-h-80 rounded-xl" src={hoozlist} alt="linkedin" />
               <div className=" p-6 ">
                 <h3 className="text-xl font-semibold mb-2">HoozList</h3>
                 <p className="text-gray-400 pb-1">Charlottesville, VA | April 2023 - April 2023</p>
                 <p className="text-sm pb-5"> </p>
                 <ul className="list-disc">
-                  <li>Designing a codeless AI platform “MatDash” to enable machine learning model building for materials R&D</li>
-                  <li>Integratable with open-source and/or custom material properties datasets</li>
-                  <li>Designing a codeless AI platform “MatDash” to enable machine learning model building for materials R&D</li>
-                  <li>Integratable with open-source and/or custom material properties datasets</li>
-                  <li>Designing a codeless AI platform “MatDash” to enable machine learning model building for materials R&D</li>
-                  <li>Integratable with open-source and/or custom material properties datasets</li>
+                  <li>Led a 5 person team, implemented extensive course data management using a REST API </li>
+                  <li>Developed user centric features with Django and Python</li>
+                  <li>Features include CRUD operations for user accounts, google authentication, friends list, and comment feature</li>
+                  <li>Leveraged CSS, JS, HTML and Bootstrap for a clean user interface; PostgreSQL for the database; deployed via Heroku</li>
                 </ul>
               </div>
             </div>
 
             
-            <div className="h-min max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105">
+            <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105">
               <Image className="w-full max-h-80 rounded-xl" src={meme} alt="linkedin" />
               <div className=" p-6 ">
                 <h3 className="text-xl font-semibold mb-2">Meme Generator</h3>
                 <p className="text-gray-400 pb-1">Charlottesville, VA | April 2023 - April 2023</p>
                 <p className="text-sm pb-5"> </p>
                 <ul className="list-disc">
-                  <li>Designing a codeless AI platform “MatDash” to enable machine learning model building for materials R&D</li>
-                  <li>Integratable with open-source and/or custom material properties datasets</li>
-                  <li>Designing a codeless AI platform “MatDash” to enable machine learning model building for materials R&D</li>
-                  <li>Integratable with open-source and/or custom material properties datasets</li>
-                  <li>Designing a codeless AI platform “MatDash” to enable machine learning model building for materials R&D</li>
-                  <li>Integratable with open-source and/or custom material properties datasets</li>
+                  <li>Developed a user-friendly web application enabling users to generate over 2,000 random meme images</li>
+                  <li>Engineered key functionalities using ReactJS and Hooks, capable of handling thousands of asynchronous API meme requests</li>
+                  <li>Engineered key functionalities using ReactJS and Hooks, capable of handling thousands of asynchronous API meme requests</li>
                 </ul>
               </div>
             </div>
