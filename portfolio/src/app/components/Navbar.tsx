@@ -1,70 +1,62 @@
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+'use client';
+import { useState } from "react";
 
 const Navbar: React.FC = () => {
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
-
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
-            <button
-              onClick={scrollToTop}
-              className="text-white font-bold text-xl focus:outline-none"
-            >
-              Logo
-            </button>
-          </div>
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
-              <ScrollLink
-                to="home"
-                smooth={true}
-                spy={true}
-                offset={-70}
-                duration={500}
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Home
-              </ScrollLink>
-              <ScrollLink
-                to="about"
-                smooth={true}
-                spy={true}
-                offset={-70}
-                duration={500}
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                About
-              </ScrollLink>
-              <ScrollLink
-                to="projects"
-                smooth={true}
-                spy={true}
-                offset={-70}
-                duration={500}
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Projects
-              </ScrollLink>
-              <ScrollLink
-                to="contact"
-                smooth={true}
-                spy={true}
-                offset={-70}
-                duration={500}
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Contact
-              </ScrollLink>
-            </div>
-          </div>
-        </div>
-      </div>
+    <nav className="p-5 mb-12 flex sticky top-0 bg-gray-100 w-full z-10">
+      <button
+        className="md:hidden block"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <svg
+          className="h-6 w-6 fill-current"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          {isOpen && (
+            <path
+              fillRule="evenodd"
+              d="M18.278 16.864a1 1 0 01-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 01-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 011.414-1.414l4.829 4.828 4.828-4.828a1 1 0 011.414 1.414l-4.828 4.829 4.828 4.828z"
+            />
+          )}
+          {!isOpen && (
+            <path
+              fillRule="evenodd"
+              d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"
+            />
+          )}
+        </svg>
+      </button>
+      <ul
+        className={`${
+          isOpen ? 'block' : 'hidden'
+        } md:flex md:justify-center md:items-center md:space-x-4`}
+      >
+        <li>
+          <a className="text-Black px-4 py-2 rounded-md " href="#">
+            About
+          </a>
+        </li>
+        <li>
+          <a className="text-Black px-4 py-2 rounded-md " href="#Education">
+            Education
+          </a>
+        </li>
+        <li>
+          <a className="text-black px-4 py-2 rounded-md " href="#Experience">
+            Experience
+          </a>
+        </li>
+        <li>
+          <a className="text-black px-4 py-2 rounded-md " href="#Projects">
+            Projects
+          </a>
+        </li>
+      </ul>
     </nav>
   );
+    
 };
 
 export default Navbar;
