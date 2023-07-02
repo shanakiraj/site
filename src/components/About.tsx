@@ -7,7 +7,7 @@ export default function About(){
     return (
         <section id="About" className=" bg-gray-100">
         <div className="pb-30">
-          <div className="flex flex-col sm:flex-row justify-center items-center pb-10 mx-auto">
+          <div className="flex flex-col-reverse sm:flex-row justify-center items-center pb-10 mx-auto">
             <div className="mx-auto">
                 <h1 className="text-5xl md:text-7xl lg:text-9xl py-2 text-stone-700 font-extrabold transform transition duration-500 ease-in-out hover:scale-110">Shan</h1>
                 <h1 className="text-5xl md:text-7xl lg:text-9xl py-2 text-stone-700 font-extrabold transform transition duration-500 ease-in-out hover:scale-110">Akiraj</h1>
