@@ -3,7 +3,7 @@ import materia from "../images/materialogo.jpg";
 import bio from "../images/bio.jpg";
 import uva from "../images/uva.jpg";
 import gtp from "../images/gtp.jpg";
-import portfolio from "../images/portfolio.png";
+
 
 export default function Experience() {
   return (
