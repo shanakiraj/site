@@ -13,7 +13,7 @@ export default function Experience() {
           Work Experience
         </h3>
 
-        <div className="flex justify-between flex-wrap gap-8 py-10 m-auto px-5">
+        <div className="flex flex-wrap gap-8 py-10 mx-auto px-5 justify-center">
           <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105">
             <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
               Materia Technologies{" "}

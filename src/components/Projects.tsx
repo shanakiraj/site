@@ -12,7 +12,7 @@ export default function Projects() {
           Projects
         </h3>
 
-        <div className="flex justify-between flex-wrap gap-8 py-10 m-auto mx-5">
+        <div className="flex justify-center flex-wrap gap-8 py-10 mx-auto">
           <a href="https://github.com/shanakiraj/Twitter-Data-Classifier" target="_blank">
             <div className="max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105">
               <img
