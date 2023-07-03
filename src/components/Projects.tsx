@@ -4,6 +4,7 @@ import meme from "../images/meme.png";
 import tcp from "../images/tcp.png";
 import twitter from "../images/twitter.png";
 import icon from "../images/icon2.png"
+import portfolio from "../images/portfolio.png"
 
 export default function Projects() {
   return (
@@ -25,9 +26,7 @@ export default function Projects() {
                 <h3 className="text-xl font-semibold mb-2">
                   Twitter Data ML Classifier
                 </h3>
-                <p className="text-gray-400 pb-1">
-                  Charlottesville, VA | April 2023 - April 2023
-                </p>
+                
                 <p className="text-sm pb-5"> </p>
                 <ul className="list-disc px-5 space-y-4">
                   <li>
@@ -54,12 +53,10 @@ export default function Projects() {
                 alt="linkedin"
               />
               <div className=" p-6 flex-grow">
-                <h3 className="text-xl font-semibold mb-2">
+                <h3 className="text-xl font-semibold mb-2 mt-6">
                   TCP Packet Simulator
                 </h3>
-                <p className="text-gray-400 pb-1">
-                  Charlottesville, VA | April 2023 - April 2023
-                </p>
+                
                 <p className="text-sm pb-5"> </p>
                 <ul className="list-disc px-5 space-y-4">
                   <li>
@@ -90,9 +87,7 @@ export default function Projects() {
               />
               <div className=" p-6 flex-grow">
                 <h3 className="text-xl font-semibold mb-2">HoozList</h3>
-                <p className="text-gray-400 pb-1">
-                  Charlottesville, VA | April 2023 - April 2023
-                </p>
+               
                 <p className="text-sm"> </p>
                 <ul className="list-disc px-5 space-y-4">
                   <li>
@@ -125,9 +120,7 @@ export default function Projects() {
               />
               <div className=" p-6 flex-grow">
                 <h3 className="text-xl font-semibold mb-2">Meme Generator</h3>
-                <p className="text-gray-400 pb-1">
-                  Charlottesville, VA | April 2023 - April 2023
-                </p>
+                
                 <p className="text-sm pb-5"> </p>
                 <ul className="list-disc px-5 space-y-4">
                   <li>
@@ -150,6 +143,32 @@ export default function Projects() {
               
             </div>
           </a>
+
+          <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105 h-full flex flex-col">
+              <img
+                className="w-full max-h-80 rounded-xl"
+                src={portfolio}
+                alt="linkedin"
+              />
+              <div className=" p-6 flex-grow">
+                <h3 className="text-xl font-semibold mb-2">Portfolio Website</h3>
+                
+                <p className="text-sm pb-5"> </p>
+                <ul className="list-disc px-5 space-y-4">
+                  <li>
+                    Created a vite project using React and Typescript
+                  </li>
+                  <li>
+                    Used react state to manage the navbar configuration for mobile compatibility
+                  </li>
+                  <li>
+                    Designed a simplistic and visually appealing UI using tailwindcss
+                  </li>
+                </ul>
+              </div>
+              <img className="w-5 mt-auto mb-5 ml-auto mr-5 hover:scale-110" src={icon} alt="icon" />
+              
+            </div>
         </div>
       </div>
     </section>
