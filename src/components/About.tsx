@@ -9,11 +9,11 @@ export default function About(){
         <section id="About" className=" bg-gray-100">
         <div className="pb-30">
           <div className="flex flex-col-reverse sm:flex-row justify-center items-center pb-10 mx-auto">
-            <div className="mx-auto">
+            <div className="mx-auto flex flex-row lg:flex-col justify-center gap-5">
                 <h1 className="text-5xl md:text-7xl lg:text-9xl py-2 text-stone-700 font-extrabold transform transition duration-500 ease-in-out hover:scale-110">Shan</h1>
                 <h1 className="text-5xl md:text-7xl lg:text-9xl py-2 text-stone-700 font-extrabold transform transition duration-500 ease-in-out hover:scale-110">Akiraj</h1>
             </div>   
-            <img className="w-full sm:w-1/3 lg:w-1/4  mx-auto" src={shan} alt="profile picture" />
+            <img className="w-60 sm:w-1/3 lg:w-1/4  mx-auto" src={shan} alt="profile picture" />
           </div>
 
 
