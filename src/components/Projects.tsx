@@ -3,6 +3,7 @@ import hoozlist from "../images/hoozlist.png";
 import meme from "../images/meme.png";
 import tcp from "../images/tcp.png";
 import twitter from "../images/twitter.png";
+import icon from "../images/icon2.png"
 
 export default function Projects() {
   return (
@@ -36,9 +37,12 @@ export default function Projects() {
                   <li>
                     Trained a variety of models including SVM, Logistic
                     Regression and Naive Bayes
+                    
                   </li>
+                  
                 </ul>
               </div>
+                <img className="w-5 mt-10 flex ml-auto mr-5 hover:scale-110" src={icon} alt="icon" />
             </div>
           </a>
 
@@ -68,6 +72,7 @@ export default function Projects() {
                   </li>
                 </ul>
               </div>
+              <img className="w-5 mt-10 flex ml-auto mr-5 hover:scale-110" src={icon} alt="icon" />
             </div>
           </a>
 

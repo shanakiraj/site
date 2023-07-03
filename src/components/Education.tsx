@@ -5,7 +5,7 @@ export default function Education() {
         <div className="max-w-md p-10">
           <div className="text-white p-5">
             <h1 className="text-5xl font-semibold pb-10">Education</h1>
-            <h2 className="text-2xl font-semibold">University of Virgina</h2>
+            <h2 className="text-2xl font-semibold">University of Virginia</h2>
             <h3 className=" ">Master of Computer Science, Dec 2024</h3>
             <h3 className=" ">BA Computer Science, Business Minor, May 2024</h3>
             <p>GPA - 3.6 | Dean's List</p>
