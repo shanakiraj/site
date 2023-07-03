@@ -144,7 +144,7 @@ export default function Projects() {
             </div>
           </a>
 
-          <a href="https://meme-generator-105b5.web.app/" target="_blank">
+          <a href="#" >
             <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105 h-full flex flex-col">
             <img
                 className="w-full max-h-80 rounded-xl"
