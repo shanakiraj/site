@@ -144,8 +144,9 @@ export default function Projects() {
             </div>
           </a>
 
-          <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105 h-full flex flex-col">
-              <img
+          <a href="https://meme-generator-105b5.web.app/" target="_blank">
+            <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105 h-full flex flex-col">
+            <img
                 className="w-full max-h-80 rounded-xl"
                 src={portfolio}
                 alt="linkedin"
@@ -155,7 +156,7 @@ export default function Projects() {
                 
                 <p className="text-sm pb-5"> </p>
                 <ul className="list-disc px-5 space-y-4">
-                  <li>
+                <li>
                     Created a vite project using React and Typescript
                   </li>
                   <li>
@@ -169,6 +170,7 @@ export default function Projects() {
               <img className="w-5 mt-auto mb-5 ml-auto mr-5 hover:scale-110" src={icon} alt="icon" />
               
             </div>
+          </a>
         </div>
       </div>
     </section>
