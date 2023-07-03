@@ -133,9 +133,7 @@ export default function Projects() {
                     requests
                   </li>
                   <li>
-                    Engineered key functionalities using ReactJS and Hooks,
-                    capable of handling thousands of asynchronous API meme
-                    requests
+                    Leveraged CSS and JSX for a dynamic and responsive UI and deployed to Google Firebase
                   </li>
                 </ul>
               </div>
