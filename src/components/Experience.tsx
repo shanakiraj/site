@@ -15,7 +15,7 @@ export default function Experience() {
 
         <div className="flex flex-wrap gap-8 py-10 mx-auto px-5 justify-center items-stretch">
           
-          <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105">
+          <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105 flex flex-col auto">
             <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
               Materia Technologies{" "}
               
@@ -26,7 +26,7 @@ export default function Experience() {
               Software Engineer, July 2023 - Present{" "}
             </p>
             <p className="text-sm pb-5"> Charlottesville, VA</p>
-            <ul className="list-disc">
+            <ul className="list-disc px-5 space-y-4">
               <li>
                 Designing a codeless AI platform “MatDash” to enable machine
                 learning model building for materials R&D
@@ -35,15 +35,14 @@ export default function Experience() {
                 Integratable with open-source and/or custom material properties
                 datasets
               </li>
-
-              
             </ul>
+            <p className="text-sm mt-auto ml-auto">(site under development)</p>
             
           </div>
           
 
           <a href="https://biocomplexity.virginia.edu/" target="_blank">
-            <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105 h-full">
+            <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105 h-full flex flex-col">
               <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
                 Biocomplexity Institute{" "}
                 <img className="w-1/6" src={bio} alt="linkedin" />
@@ -52,7 +51,7 @@ export default function Experience() {
                 Machine Learning Intern, May 2023 - Present{" "}
               </p>
               <p className="text-sm pb-5"> Charlottesville, VA</p>
-              <ul className="list-disc">
+              <ul className="list-disc px-5 space-y-4">
                 <li>
                   Using health record (antibiogram) data to find patterns of
                   transmission in hospital infections.
@@ -61,10 +60,11 @@ export default function Experience() {
                   Using clustering algorithms for patient grouping and data
                   analysis using Pandas and NetworkX
                 </li>
+                
 
                 
               </ul>
-              <img className="w-5 mt-10 flex ml-auto hover:scale-110" src={icon} alt="icon" />
+              <img className="w-5 mt-auto flex ml-auto hover:scale-110" src={icon} alt="icon" />
             </div>
           </a>
 
@@ -78,7 +78,7 @@ export default function Experience() {
                 Research Intern, Jan 2023 - Present{" "}
               </p>
               <p className="text-sm pb-5"> Charlottesville, VA</p>
-              <ul className="list-disc">
+              <ul className="list-disc px-5 space-y-4">
                 <li>
                   Created a script to automate grain size analysis for the
                   Materials Science department improving productivity and saving
@@ -104,7 +104,7 @@ export default function Experience() {
                 Computer Science Tutor, Sep 2022 - Present{" "}
               </p>
               <p className="text-sm pb-5"> Charlottesville, VA</p>
-              <ul className="list-disc">
+              <ul className="list-disc px-5 space-y-4">
                 <li>
                   Taught multiple classes and over 100 total students. Lead
                   classroom discussion and create lesson plans on core concepts

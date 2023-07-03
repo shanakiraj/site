@@ -29,7 +29,7 @@ export default function Projects() {
                   Charlottesville, VA | April 2023 - April 2023
                 </p>
                 <p className="text-sm pb-5"> </p>
-                <ul className="list-disc">
+                <ul className="list-disc px-5 space-y-4">
                   <li>
                     Created machine learning classifiers to detect bias from a
                     dataset of thousands of tweets from politicians
@@ -61,7 +61,7 @@ export default function Projects() {
                   Charlottesville, VA | April 2023 - April 2023
                 </p>
                 <p className="text-sm pb-5"> </p>
-                <ul className="list-disc">
+                <ul className="list-disc px-5 space-y-4">
                   <li>
                     Implemented a RDT protocol using Go-Back-N to send
                     packets over an unreliable data channel.
@@ -94,7 +94,7 @@ export default function Projects() {
                   Charlottesville, VA | April 2023 - April 2023
                 </p>
                 <p className="text-sm"> </p>
-                <ul className="list-disc">
+                <ul className="list-disc px-5 space-y-4">
                   <li>
                     Led a 5 person team, implemented extensive course data
                     management using a REST API{" "}
@@ -129,7 +129,7 @@ export default function Projects() {
                   Charlottesville, VA | April 2023 - April 2023
                 </p>
                 <p className="text-sm pb-5"> </p>
-                <ul className="list-disc">
+                <ul className="list-disc px-5 space-y-4">
                   <li>
                     Developed a user-friendly web application enabling users to
                     generate over 2,000 random meme images
