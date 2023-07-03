@@ -12,9 +12,9 @@ export default function Projects() {
           Projects
         </h3>
 
-        <div className="flex justify-center flex-wrap gap-8 py-10 mx-auto">
+        <div className="flex justify-center flex-wrap gap-8 py-10 mx-auto items-stretch">
           <a href="https://github.com/shanakiraj/Twitter-Data-Classifier" target="_blank">
-            <div className="max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105">
+            <div className="max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105 h-full">
               <img
                 className="w-full max-h-80 rounded-xl"
                 src={twitter}
@@ -43,7 +43,7 @@ export default function Projects() {
           </a>
 
           <a href="https://github.com/shanakiraj/TCP-Simulation" target="_blank">
-            <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105">
+            <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105 h-full">
               <img
                 className="w-full max-h-80 rounded-xl"
                 src={tcp}
