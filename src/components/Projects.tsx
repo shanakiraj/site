@@ -15,6 +15,41 @@ export default function Projects() {
         </h3>
 
         <div className="flex justify-center flex-wrap gap-8 py-10 mx-auto items-stretch">
+
+        <a href="https://uva-cs3240-f22-a14.herokuapp.com/" target="_blank">
+            <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105 h-full flex flex-col">
+              <img
+                className="w-full max-h-80 rounded-xl"
+                src={hoozlist}
+                alt="linkedin"
+              />
+              <div className=" p-6 flex-grow">
+                <h3 className="text-xl font-semibold mb-2">HoozList</h3>
+               
+                <p className="text-sm"> </p>
+                <ul className="list-disc px-5 space-y-4">
+                  <li>
+                    Led a 5 person team, implemented extensive course data
+                    management using a REST API{" "}
+                  </li>
+                  <li>
+                    Developed user centric features with Django and Python
+                  </li>
+                  <li>
+                    Features include CRUD operations for user accounts, google
+                    authentication, friends list, and comment feature
+                  </li>
+                  <li>
+                    Leveraged CSS, JS, HTML and Bootstrap for a clean user
+                    interface; PostgreSQL for the database; deployed via Heroku
+                  </li>
+                </ul>
+              </div>
+              <img className="w-5 mt-auto mb-5 ml-auto mr-5 hover:scale-110" src={icon} alt="icon" />
+            </div>
+          </a>
+
+          
           <a href="https://github.com/shanakiraj/Twitter-Data-Classifier" target="_blank">
             <div className="max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105 h-full flex flex-col">
               <img
@@ -78,38 +113,7 @@ export default function Projects() {
           </a>
           
 
-          <a href="https://uva-cs3240-f22-a14.herokuapp.com/" target="_blank">
-            <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105 h-full flex flex-col">
-              <img
-                className="w-full max-h-80 rounded-xl"
-                src={hoozlist}
-                alt="linkedin"
-              />
-              <div className=" p-6 flex-grow">
-                <h3 className="text-xl font-semibold mb-2">HoozList</h3>
-               
-                <p className="text-sm"> </p>
-                <ul className="list-disc px-5 space-y-4">
-                  <li>
-                    Led a 5 person team, implemented extensive course data
-                    management using a REST API{" "}
-                  </li>
-                  <li>
-                    Developed user centric features with Django and Python
-                  </li>
-                  <li>
-                    Features include CRUD operations for user accounts, google
-                    authentication, friends list, and comment feature
-                  </li>
-                  <li>
-                    Leveraged CSS, JS, HTML and Bootstrap for a clean user
-                    interface; PostgreSQL for the database; deployed via Heroku
-                  </li>
-                </ul>
-              </div>
-              <img className="w-5 mt-auto mb-5 ml-auto mr-5 hover:scale-110" src={icon} alt="icon" />
-            </div>
-          </a>
+          
 
           <a href="https://meme-generator-105b5.web.app/" target="_blank">
             <div className=" max-w-sm bg-white rounded-xl shadow-lg transition duration-500 hover:scale-105 h-full flex flex-col">
