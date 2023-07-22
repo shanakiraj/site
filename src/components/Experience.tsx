@@ -63,7 +63,7 @@ export default function Experience() {
           </a>
 
           <a href="https://www.virginia.edu/" target="_blank">
-            <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 h-full hover:scale-105">
+            <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105 h-full flex flex-col">
               <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
                 University of Virginia{" "}
                 <img className="w-1/6" src={uva} alt="UVA" />
@@ -97,11 +97,11 @@ export default function Experience() {
             </div>
           </a>
 
-          <a href="https://globalteachingproject.com/" target="_blank">
-            <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition h-full duration-500 hover:scale-105">
+          <a href="https://biocomplexity.virginia.edu/" target="_blank">
+            <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105 h-full flex flex-col">
               <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
                 Global Teaching Project{" "}
-                <img className="w-1/6" src={gtp} alt="GTP" />
+                <img className="w-1/6" src={bio} alt="linkedin" />
               </h3>
               <p className="text-gray-400 pb-1">
                 Computer Science Tutor, Sep 2022 - Present{" "}
@@ -117,15 +117,19 @@ export default function Experience() {
                   Provide academic services for schools without strong AP
                   programs or funding for AP teachers
                 </li>
-
-                <img
-                  className="w-5 mt-5 flex ml-auto hover:scale-110"
-                  src={icon}
-                  alt="icon"
-                />
               </ul>
+              <img
+                className="w-5 mt-auto flex ml-auto hover:scale-110"
+                src={icon}
+                alt="icon"
+              />
             </div>
           </a>
+
+
+
+
+          
         </div>
       </div>
     </section>
