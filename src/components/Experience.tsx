@@ -101,7 +101,7 @@ export default function Experience() {
             <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105 h-full flex flex-col">
               <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
                 Global Teaching Project{" "}
-                <img className="w-1/6" src={bio} alt="linkedin" />
+                <img className="w-1/6" src={gtp} alt="linkedin" />
               </h3>
               <p className="text-gray-400 pb-1">
                 Computer Science Tutor, Sep 2022 - Present{" "}
@@ -126,10 +126,6 @@ export default function Experience() {
             </div>
           </a>
 
-
-
-
-          
         </div>
       </div>
     </section>
