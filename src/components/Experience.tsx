@@ -97,7 +97,7 @@ export default function Experience() {
             </div>
           </a>
 
-          <a href="https://biocomplexity.virginia.edu/" target="_blank">
+          <a href="https://globalteachingproject.com/" target="_blank">
             <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105 h-full flex flex-col">
               <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
                 Global Teaching Project{" "}
