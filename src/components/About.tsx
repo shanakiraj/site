@@ -20,7 +20,7 @@ export default function About(){
 
           <div className="text-center pb-10">
             
-            <h3 className="text-4xl text-gray-400 font-serif py-2">Software Engineer | Masters Student @UVA</h3>
+            <h3 className="text-4xl text-gray-400 font-serif py-2">Software Engineer | Computer Science @UVA</h3>
             <p className="text-md py-5 leading-8">
               I am passionate about software development as well as involving myself in unique and meaningful projects.
             </p>
