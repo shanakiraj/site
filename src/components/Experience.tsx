@@ -40,7 +40,10 @@ export default function Experience() {
                 <img className="w-1/6" src={bio} alt="linkedin" />
               </h3>
               <p className="text-gray-400 pb-1">
-                Machine Learning Intern, May 2023 - Present{" "}
+                Machine Learning Intern, May 2023 - July 2023{" "}
+              </p>
+              <p className="text-gray-400 pb-1">
+                Research Scientist, Aug 2023 - Present{" "}
               </p>
               <p className="text-sm pb-5"> Charlottesville, VA</p>
               <ul className="list-disc px-5 space-y-4">
@@ -69,7 +72,7 @@ export default function Experience() {
                 <img className="w-1/6" src={uva} alt="UVA" />
               </h3>
               <p className="text-gray-400 pb-1">
-                Research Intern, Jan 2023 - Present{" "}
+                Research Intern, Jan 2023 - June 2023{" "}
               </p>
               <p className="text-sm pb-5"> Charlottesville, VA</p>
               <ul className="list-disc px-5 space-y-4">
