@@ -24,7 +24,7 @@ export default function Experience() {
             <p className="text-sm pb-5"> Charlottesville, VA</p>
             <ul className="list-disc px-5 space-y-4">
               <li>
-                Implemented a scalable and optimized data model using Django ORM, resulting in improved query performance and reduced database load
+                Developed and maintained interactive Plotly Dash applications to interpret and visualize corrosion data.
               </li>
               <li className="">
                 Configured and deployed AWS API gateway to enable secure and reliable communication between the application and external systems, facilitating seamless data exchange and integration with third-party services
@@ -82,8 +82,7 @@ export default function Experience() {
                   the Materials Science Department
                 </li>
                 <li>
-                  Created a script to automate grain size analysis for the
-                  Materials Science department improving productivity and saving
+                  Created a script to automate grain size analysis, improving productivity and saving
                   hundreds of hours of manual calculations
                 </li>
                 <li>
@@ -112,12 +111,14 @@ export default function Experience() {
               <p className="text-sm pb-5"> Charlottesville, VA</p>
               <ul className="list-disc px-5 space-y-4">
                 <li>
-                  Taught multiple classes and over 100 total students. Lead
-                  classroom discussion and create lesson plans on core concepts
+                  Taught multiple classes and over 100 total students 
+                </li>
+                <li>
+                  Lead classroom discussion and created lesson plans on core concepts
                   such as algorithms, networks, data, and abstraction
                 </li>
                 <li>
-                  Provide academic services for schools without strong AP
+                  Provided academic services for schools without strong AP
                   programs or funding for AP teachers
                 </li>
               </ul>
