@@ -13,10 +13,10 @@ export default function Education() {
           <div className="text-white p-5">
             <h3>Coursework:</h3>
             <p>
-              Data Structures and Algorithms, Computer Architecture, Networks,
-              Advanced Software Development, Machine Learning, Cyber Security,
-              Theory of Computation, Discrete Math, Probability, Linear Algebra,
-              Statistics, Financial Accounting
+              Algorithms, Computer Architecture, Networks, Advanced Software
+              Development, Machine Learning, Natural Language Processing
+              (Graduate), Image Analysis (Graduate), Theory of Computation,
+              Probability, Linear Algebra, Statistics, Financial Accounting
             </p>
           </div>
           <div className="text-white p-5">

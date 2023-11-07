@@ -3,6 +3,7 @@ import bio from "../images/bio.jpg";
 import uva from "../images/uva.jpg";
 import gtp from "../images/gtp.jpg";
 import icon from "../images/icon2.png";
+import skc from "../images/skc.png";
 
 export default function Experience() {
   return (
@@ -13,21 +14,46 @@ export default function Experience() {
         </h3>
 
         <div className="flex flex-wrap gap-8 py-10 mx-auto px-5 justify-center items-stretch">
+          <a href="https://steelkeycap.com/" target="_blank">
+            <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105 h-full flex flex-col">
+              <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
+                Steel Key Capital{" "}
+                <img className="w-1/6" src={skc} alt="skc logo" />
+              </h3>
+              <p className="text-gray-400 pb-1">
+                Software Engineer Intern, Oct 2023 - Present{" "}
+              </p>
+              <p className="text-sm pb-5"> Remote</p>
+              <ul className="list-disc px-5 space-y-4">
+                <li>Developing crypto trading systems with Python and Rust.</li>
+              </ul>
+              <img
+                className="w-5 mt-auto flex ml-auto hover:scale-110"
+                src={icon}
+                alt="icon"
+              />
+            </div>
+          </a>
+
           <div className="max-w-sm bg-white rounded-xl shadow-lg p-6 transition duration-500 hover:scale-105 flex flex-col auto">
             <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
               Materia Technologies{" "}
               <img className="w-1/6" src={materia} alt="materialogo" />
             </h3>
             <p className="text-gray-400 pb-1">
-              Software Engineer, July 2023 - Present{" "}
+              Software Engineer, Jul 2023 - Nov 2023{" "}
             </p>
             <p className="text-sm pb-5"> Charlottesville, VA</p>
             <ul className="list-disc px-5 space-y-4">
               <li>
-                Developed and maintained interactive Plotly Dash applications to interpret and visualize corrosion data.
+                Developed and maintained interactive Plotly Dash applications to
+                interpret and visualize corrosion data.
               </li>
               <li className="">
-                Configured and deployed AWS API gateway to enable secure and reliable communication between the application and external systems, facilitating seamless data exchange and integration with third-party services
+                Configured and deployed AWS API gateway to enable secure and
+                reliable communication between the application and external
+                systems, facilitating seamless data exchange and integration
+                with third-party services
               </li>
             </ul>
             <p className="text-sm mt-auto ml-auto">(site under development)</p>
@@ -40,7 +66,7 @@ export default function Experience() {
                 <img className="w-1/6" src={bio} alt="linkedin" />
               </h3>
               <p className="text-gray-400 pb-1">
-                Machine Learning Intern, May 2023 - July 2023{" "}
+                Machine Learning Intern, May 2023 - Jul 2023{" "}
               </p>
               <p className="text-gray-400 pb-1">
                 Research Scientist, Aug 2023 - Present{" "}
@@ -48,13 +74,16 @@ export default function Experience() {
               <p className="text-sm pb-5"> Charlottesville, VA</p>
               <ul className="list-disc px-5 space-y-4">
                 <li>
-                  Found patterns of transmission in hospital infections by performing data analysis on health record (antibiogram) data
+                  Found patterns of transmission in hospital infections by
+                  performing data analysis on health record (antibiogram) data
                 </li>
                 <li>
-                  Used PCA for dimensionality reduction and ran clustering algorithms for patient grouping using Python, Sklearn and Pandas
+                  Used PCA for dimensionality reduction and ran clustering
+                  algorithms for patient grouping using Python, Sklearn and
+                  Pandas
                 </li>
                 <li>
-                  Created and analyzed temporal contact networks using NetworkX 
+                  Created and analyzed temporal contact networks using NetworkX
                 </li>
               </ul>
               <img
@@ -72,7 +101,7 @@ export default function Experience() {
                 <img className="w-1/6" src={uva} alt="UVA" />
               </h3>
               <p className="text-gray-400 pb-1">
-                Research Intern, Jan 2023 - June 2023{" "}
+                Research Intern, Jan 2023 - Jun 2023{" "}
               </p>
               <p className="text-sm pb-5"> Charlottesville, VA</p>
               <ul className="list-disc px-5 space-y-4">
@@ -82,8 +111,9 @@ export default function Experience() {
                   the Materials Science Department
                 </li>
                 <li>
-                  Created a script to automate grain size analysis, improving productivity and saving
-                  hundreds of hours of manual calculations
+                  Created a script to automate grain size analysis, improving
+                  productivity and saving hundreds of hours of manual
+                  calculations
                 </li>
                 <li>
                   Constructed models for corrosion prediction using Matplotlib,
@@ -110,12 +140,10 @@ export default function Experience() {
               </p>
               <p className="text-sm pb-5"> Charlottesville, VA</p>
               <ul className="list-disc px-5 space-y-4">
+                <li>Taught multiple classes and over 100 total students</li>
                 <li>
-                  Taught multiple classes and over 100 total students 
-                </li>
-                <li>
-                  Lead classroom discussion and created lesson plans on core concepts
-                  such as algorithms, networks, data, and abstraction
+                  Lead classroom discussion and created lesson plans on core
+                  concepts such as algorithms, networks, data, and abstraction
                 </li>
                 <li>
                   Provided academic services for schools without strong AP
@@ -129,7 +157,6 @@ export default function Experience() {
               />
             </div>
           </a>
-
         </div>
       </div>
     </section>
