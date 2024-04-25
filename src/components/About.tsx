@@ -1,7 +1,7 @@
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
 import shan from "../images/shan.png";
-import icon from "../images/icon.png";
+//import icon from "../images/icon.png";
 
 export default function About() {
   return (
