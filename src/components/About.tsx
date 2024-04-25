@@ -40,14 +40,14 @@ export default function About() {
           <a href="https://www.linkedin.com/in/shan-akiraj/" target="_blank">
             <img className="w-12" src={linkedin} alt="linkedin" />
           </a>
-          <a
+          {/* <a
             className="bg-cyan-400 text-white px-2 py-2 rounded-md flex items-center justify-between"
             target="_blank"
             href="https://drive.google.com/file/d/1AiTpwxAm4bVdKNLIVUzADaxuGdRqDB0z/view?usp=sharing"
           >
             Resume
             <img className="w-6 ml-2" src={icon} alt="icon" />
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

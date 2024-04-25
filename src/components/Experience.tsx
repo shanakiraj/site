@@ -101,7 +101,7 @@ export default function Experience() {
                 <img className="w-1/6" src={uva} alt="UVA" />
               </h3>
               <p className="text-gray-400 pb-1">
-                Research Intern, Jan 2023 - Jun 2023{" "}
+                Research Intern, May 2023 - Oct 2023{" "}
               </p>
               <p className="text-sm pb-5"> Charlottesville, VA</p>
               <ul className="list-disc px-5 space-y-4">
